@@ -30,11 +30,11 @@ Contact:
 For any questions or inquiries, please contact:
 
 Zara Tahir
-> Email: zaratahir1928@gmail.com  or i230802@isb.nu.edu.pk
+> Email: zaratahir1928@gmail.com  or  i230802@isb.nu.edu.pk
 > LinkedIn: www.linkedin.com/in/zara--tahir
 
 
 Aliza Yasser
-> Email: i230501@isb.nu.edu.pk
+> Email: yaliza3435@gmail.com  or  i230501@isb.nu.edu.pk
 > GitHub username: AlizaYasser
 
