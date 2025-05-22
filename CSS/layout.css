@@ -1,0 +1,242 @@
+body,html {
+    height: 100%;
+    margin: 0%;
+}
+
+.header { 
+    background-color:#f7f2ef; 
+    color : white; 
+    padding: 25px 0px 0px ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; 
+    width: 100%; 
+} 
+    
+.text{                   /*withline text*/
+    height: 90px;
+    width:217px;
+    margin-left: -690px;
+    margin-top: -20px;
+}
+
+.bar{
+    margin-left:20px;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 680px 650px 170px;
+    grid-template-rows: 20px 25px;
+}   
+
+.logo{
+    color: #0e0c05;
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 40px; 
+} 
+
+.fa,.fas{
+    color: black;
+}
+
+.leftitems{
+    display:flex;
+}
+
+.navlink { 
+    height: 60px;
+    width: 60px;
+    background-color: #fff6f1;
+    border-radius: 50%;
+    text-align: center; 
+    line-height: 40px;
+    margin:0 10px 10px 0;
+    padding: 7px ;
+}
+
+.navlink:hover {
+    background-color: black;
+}
+
+a:hover i {
+    transform: scale(1.1);
+    color: antiquewhite;
+}
+
+.logo1{                        /*2nd row of header*/
+    text-align: center;
+    background-color: #0e0c05;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color:#f7f2ef;
+    padding: 12px 35px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 117px;
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 9px 14px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: #4a453d;
+    text-decoration: underline;
+    font-weight: 800;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:#f7f2ef;
+    color:#0e0c05;
+}
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+figure {
+    padding: 12px;
+    float: left;
+    width: 22%;
+    margin-top: 170px ;
+    margin-left: 90px;
+}
+figure img {
+    width:350px;
+    height:526px;
+}
+
+figure img:hover{
+    transform: scale(1.04);
+}
+
+
+figcaption {
+    margin-top: 4px;
+    margin-left: 12px;
+    padding: 12px;
+    background-color:#928267;
+    text-align: center;
+    color: white;
+}
+figcaption h4 {
+    margin-top: 4px;
+    font-size: large;
+}
+figcaption p {
+    font-size: 0.9em;
+    color:#f7f2ef;
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+.footer { 
+    background-color: black;     
+    position:relative;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    width: 100%;
+} 
+
+.container1{
+    max-width: 1170px;
+    margin:auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 10px 15px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+      font-size: 16px;
+      text-transform: capitalize;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 300;
+      color: #7f7a72;
+      display: block;
+      transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+      color: #ffffff;
+      padding-left: 8px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #928267;
+    height: 2px;
+    box-sizing: border-box;
+    width: 80px;
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #7a7265;
+}
+
+.copy-right-sec{
+    padding: 1.8rem;
+    background: #f7f2ef;
+    background-image: url("../Images/pic42.jpeg");
+    color: #c5ae9f;
+    text-align: center;
+}
